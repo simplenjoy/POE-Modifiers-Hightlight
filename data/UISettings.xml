@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+<Props id="PathOfExile">
+
+	<Size id="BaseResolution" width="2560" height="1600"/>
+	<Point id="ScreenBufferPercentage" x="0" y="0"/>
+
+	<!-- Fonts to install -->
+	<InstalledFont id="FontinBold"      	typeface="DFPYuanW7-GB"                   style="bold"    value="Art/2DArt/Fonts/Fontin-Bold.ttf"/>
+	<InstalledFont id="FontinItalic"   		typeface="DFPYuanW7-GB"                   style="italic"  value="Art/2DArt/Fonts/Fontin-Italic.ttf"/>
+	<InstalledFont id="FontinRegular"   	typeface="DFPYuanW7-GB"                                   value="Art/2DArt/Fonts/Fontin-Regular.ttf"/>
+	<InstalledFont id="FontinSmallcaps" 	typeface="DFPYuanW7-GB"                         value="Art/2DArt/Fonts/Fontin-SmallCaps.ttf"/>
+	<InstalledFont id="OptimusPrinceps" 	typeface="DFPYuanW7-GB"                  value="Art/2DArt/Fonts/OptimusPrincepsSemiBold.ttf"/>
+	<InstalledFont id="DFPT_B5_POE"     	typeface="DFPYuanW7-GB"                      value="Art/2DArt/Fonts/DFPT_B5_POE.ttf"/>
+	<InstalledFont id="FrizQuadrata"    	typeface="DFPYuanW7-GB"                          value="Art/2DArt/Fonts/FrizQuadrataITC.ttf"/>
+	<InstalledFont id="Quikhand"    		typeface="DFPYuanW7-GB"                        		    value="Art/2DArt/Fonts/Quikhand.ttf"/>
+	<InstalledFont id="YDSapphIIM"    		typeface="DFPYuanW7-GB"                 	    value="Art/2DArt/Fonts/YDSapphIIM.ttf"/>
+	<InstalledFont id="ThasadithBold" 		typeface="DFPYuanW7-GB"                style="bold"	value="Art/2DArt/Fonts/Thasadith-Bold.ttf"/>
+	<InstalledFont id="ThasadithItalic" 	typeface="DFPYuanW7-GB"                style="italic"	value="Art/2DArt/Fonts/Thasadith-Italic.ttf"/>
+	<InstalledFont id="ThasadithRegular" 	typeface="DFPYuanW7-GB"                 			    value="Art/2DArt/Fonts/Thasadith-Regular.ttf"/>
+	<InstalledFont id="KanitBold"      		typeface="DFPYuanW7-GB"                   style="bold"    	value="Art/2DArt/Fonts/Kanit-Bold.ttf"/>
+	<InstalledFont id="KanitItalic"   		typeface="DFPYuanW7-GB"                   style="italic"  	value="Art/2DArt/Fonts/Kanit-Italic.ttf"/>
+	<InstalledFont id="KanitRegular"   		typeface="DFPYuanW7-GB"                                   	value="Art/2DArt/Fonts/Kanit-Regular.ttf"/>
+	<InstalledFont id="NotoSansCJKjp-Regular"	typeface="DFPYuanW7-GB"                value="Art/2DArt/Fonts/NotoSansCJKjp-Regular.ttf"/>
+
+	
+  <!-- Fallback fonts -->
+	<InstalledFont id="DFPYuanW7GB" typeface="DFPYuanW7-GB" value="Art/2DArt/Fonts/hkyt.ttf"/><FallbackFont id="CJK"      ranges="CJK"      fonts="DFPYuanW7-GB,YDSapphII Medium,DFPHeiMedium-B5-POE,Simsun,PMinglu,Gulim,MS UI Gothic,Microsoft JhengHei"/>  <!-- CJK = Chinese, Japanese, and Korean.  -->
+	<FallbackFont id="Cyrillic" ranges="Cyrillic" fonts="FrizQuadrataITC,Arial,Microsoft Sans Serif"/>
+	<FallbackFont id="Thai"     ranges="Thai"     fonts="DFPHeiMedium-B5-POE"/>
+	<FallbackFont id="Telugu"   ranges="Telugu"   fonts="Nirmala UI,Gautami"/>
+	<FallbackFont id="Any"      ranges="Any"      fonts="YDSapphII Medium,DFPHeiMedium-B5-POE,Microsoft Sans Serif,Arial,MS UI Gothic,Nirmala UI,Gautami,Microsoft Himalaya,Lao UI,Mangal,Shruti,Euphemia,Gadugi,Marlett,Webdings,Wingdings"/>  <!-- "Any" means these fonts are used if all else fails.  -->
+
+	<!-- Image definition lists -->
+	<ImageDefinitionList id="Main"         value="Art/UIImages1.txt"/>
+	<ImageDefinitionList id="Divination"   value="Art/UIDivinationImages.txt"/>
+	<ImageDefinitionList id="Shop"         value="Art/UIShopImages.txt"/>
+	<ImageIncludePath    id="MainInclude"  value="Art/2DArt/UIImages"/>
+
+	<Font id="Normal"        typeface="DFPYuanW7-GB"           size="33"/>
+	<Font id="Small"         typeface="DFPYuanW7-GB"           size="26"/>
+	<Font id="Large"         typeface="DFPYuanW7-GB"           size="45"/>
+	<Font id="SmallNormal"   typeface="DFPYuanW7-GB"           size="29"/>
+	<Font id="LargeNormal"   typeface="DFPYuanW7-GB"           size="39"/>
+	<Font id="NormalSC"      typeface="DFPYuanW7-GB" size="33"/>
+	<Font id="SmallSC"       typeface="DFPYuanW7-GB" size="26"/>
+	<Font id="LargeSC"       typeface="DFPYuanW7-GB" size="45"/>
+	<Font id="SmallNormalSC" typeface="DFPYuanW7-GB" size="29"/>
+	<Font id="LargeNormalSC" typeface="DFPYuanW7-GB" size="39"/>
+	<Font id="SharpNormal"   typeface="DFPYuanW7-GB"  size="33"/>
+	<Font id="QuikhandSmall"        typeface="DFPYuanW7-GB"          size="26"/>
+	<Font id="QuikhandSmallNormal"  typeface="DFPYuanW7-GB"          size="29"/>
+	<Font id="QuikhandNormal"       typeface="DFPYuanW7-GB"          size="33"/>
+	<Font id="QuikhandLargeNormal"  typeface="DFPYuanW7-GB"          size="39"/>
+	<Font id="QuikhandLarge"        typeface="DFPYuanW7-GB"          size="45"/>
+	
+	<Font id="ItemPopupTitle"                      inherits="LargeNormalSC"/>
+	<Font id="ItemStackCountLabel"                 inherits="Normal"/>
+	<Font id="ItemStackCountLabelSmall"            inherits="ItemStackCountLabel"         size="28"/>
+	<Font id="ItemStackCountLabelQuad"             inherits="ItemStackCountLabel"         size="22"/>
+	<Font id="ItemStackLevelLabel"                 inherits="Small"/>
+	<Font id="ItemStackLevelLabelQuad"             inherits="ItemStackLevelLabel"         size="21"/>
+	
+	<Font id="UnifiedCraftingOptionName"           inherits="Normal"            size="30"/>
+	<Font id="UnifiedCraftingOptionLevel"          inherits="Small"/>
+	<Font id="UnifiedCraftingOptionCost"           inherits="Small"/>
+	<Font id="UnifiedCraftingOptionError"          inherits="Normal"/>
+	<Font id="LabyrinthSelectName"                 inherits="Normal"/>
+	<Font id="LabyrinthSelectNameSmall"            inherits="Small"/>
+	<Font id="LabyrinthSelectLevel"                inherits="NormalSC"/>
+	<Font id="LabyrinthSelectCost"                 inherits="NormalSC"/>
+	<Font id="LabyrinthEnchantingDescription"      inherits="Normal"            size="30"/>
+	<Font id="LabyrinthEnchantingLevel"            inherits="Small"/>
+	<Font id="LabyrinthEnchantingRemaining"        inherits="Normal"            size="33"/>
+	<Font id="ProphecyTabSealButton"               inherits="SharpNormal"       size="26"/>
+	<Font id="ProphecyTabNameLabel"                inherits="SmallSC"/>
+	<Number id="ProphecyTabNameLabelLineSpacing"   value="0.0"/>
+	<Font id="BestiaryTabCapturedMonsterName"         inherits="Normal"/>
+	<Number id="BestiaryTabCapturedNameLineSpacing"   value="0.0"/>
+	<Font id="BestiaryTabCreaturePageTitle"         inherits="LargeSC" size="47" bold="true" italic="true"/>
+	<Font id="BestiaryTabCreaturePageFlavour"       inherits="Small"/>
+	<Number id="BestiaryTabCreaturePageLineSpacing" value="0.0"/>
+	<Font id="BetrayalChoiceDetails"               inherits="Large"             size="40"/>
+	<Font id="KiracMissionDescription"             inherits="Normal"            size="29"/>
+	<Font id="HarvestCraftingOptionDescription"    inherits="Normal"/>
+	<Font id="HarvestCraftingOptionQuantity"       inherits="Normal"            size="35"/>
+	<Font id="HarvestCraftingOptionCost"           inherits="SharpNormal"       size="35"/>
+	<Font id="HarvestCraftingOptionLevel"          inherits="HarvestCraftingOptionDescription" size="28"/>
+	<Number id="HarvestCraftingOptionLineSpacing"  value="0.0"/>
+	<Font id="HeistRoguePanelStatsHeader"          inherits="SharpNormal"       size="30"/>
+	<Font id="HeistRoguePanelStats"                inherits="SmallSC"           size="26"/>
+	<Font id="UltimatumTitle"                      typeface="DFPYuanW7-GB"            size="40"/>
+	<Font id="UltimatumLabel"                      typeface="DFPYuanW7-GB"            size="33"/>
+	<Font id="UltimatumChooseASide"                typeface="DFPYuanW7-GB"     	    size="79"/>
+	<Font id="UltimatumRewardCount"                typeface="DFPYuanW7-GB"     	    size="30"/>
+	<Font id="UltimatumTimerLabel"                 typeface="DFPYuanW7-GB"     	    size="30"/>
+	<Font id="UltimatumPopupLabel"                 typeface="DFPYuanW7-GB"  size="39"/>
+	<Font id="UltimatumVoteCountLabel"             typeface="DFPYuanW7-GB"  size="28"/>
+	<Font id="UltimatumProgressBarLabel"           typeface="DFPYuanW7-GB"  size="33"/>
+	<Font id="UltimatumReturnToRingLabel"          typeface="DFPYuanW7-GB"  size="49"/>
+	<Font id="ExpeditionWindowSectionHeader"       typeface="DFPYuanW7-GB"            size="40"		style="bold"/>
+	<Font id="ExpeditionWindowSection"         	   inherits="Small"/>
+	<Font id="ExpeditionMapPinNameLabel"           typeface="DFPYuanW7-GB"            size="34"		style="bold"/>
+	<Font id="ExpeditionMapPinSubNameLabel"        typeface="DFPYuanW7-GB"            size="26"		style="italic"/>
+	<Font id="ExpeditionMapPinModLabel"            inherits="SmallSC"/>
+	
+	<Font id="KiracMissionNPCHeader"               typeface="DFPYuanW7-GB" size="40" style="bold"/>
+
+  <Number id="WordsPerMinute"                    value="150"/>
+	<Number id="ScrollIncrement"                   value="10"/>
+	<Number id="ScrollbarWidth"                    value="50"/>
+	<Number id="ItemPopupFontSizeScale"            value="1.0"/>
+	<Number id="ItemPopupAdditionalLineSpacing"    value="0.0"/>
+	<Colour id="White"                             value="255,255,255"/>
+	<Colour id="Black"                             value="0,0,0"/>
+	<Colour id="TextColour"                        value="136,87,33"/>
+	<Colour id="TitleTextColour"                   value="231,180,120"/>
+	<Colour id="LabelTextColour"                   value="136,87,33"/>
+	<Colour id="BorderColour"                      value="137,100,64"/>
+	<Colour id="BackgroundColour"                  value="240,0,0,0"/>
+	<Colour id="NumberColour"                      value="255,255,255"/>
+	<Colour id="InputTextColour"                   value="255,234,197"/>
+	<Colour id="SelectedInputTextColour"           value="255,192,119"/>
+	<Colour id="SelectedInputTextBackgroundColour" value="139,95,58"/>
+	<Colour id="OnlineFilterColour"                value="124,248,241"/>
+
+	<Colour id="TabNameColourLight"        value="255,192,119"/>
+	<Colour id="TabNameGlowColourLight"    value="118,56,0"/>
+	<Colour id="TabNameOutlineColourLight" value="0,0,0,0"/>
+	<Colour id="TabNameColourDark"         value="59,44,27"/>
+	<Colour id="TabNameGlowColourDark"     value="0,0,0,0"/>
+	<Colour id="TabNameOutlineColourDark"  value="0,0,0,0"/>
+	<Colour id="DefaultTabColour"          value="124,84,54"/>
+	<Colour id="ProphecyTabColour"         value="70,53,108"/>
+	<Colour id="ProphecyTabNameColour"     value="178,141,247"/>
+	<Colour id="HellscapeTabColour"		   value="120,30,20"/>
+
+  <Colour id="CharacterNameColour" value="231,180,120"/>
+	<Colour id="CharacterInfoColour" value="136,87,33"/>
+	<Colour id="OfflineColour"       value="104,104,104"/>
+	<Colour id="AreaNameColour"      value="104,104,104"/>
+	
+	<Colour id="UltimatumLabelColour"             value="246,204,88"/>
+	<Colour id="UltimatumPopupTitleColour"        value="246,204,88"/>
+	<Colour id="UltimatumPopupDescriptionColour"  value="127,127,127"/>
+	<Colour id="UltimatumNumberColour"            value="254,92,81"/>
+	<Colour id="UltimatumRewardsNumberColour"     value="254,235,182"/>
+	<Colour id="UltimatumVoteNumberColour"        value="254,235,182"/>
+	<Colour id="UltimatumTimerLabelColour"        value="254,235,182"/>
+	<Colour id="UltimatumProgressBarLabelColour"  value="252,201,117"/>
+	<Colour id="UltimatumReturnToRingLabelColour" value="10,10,10"/>
+	<Colour id="UltimatumReturnToRingGlowColour"  value="180,255,56,49"/>
+
+	<Colour id="ExpeditionMapNPCLabelColour"      value="227,215,166"/>
+	<Colour id="ExpeditionMapModsLabelColour"     value="173,141,98"/>
+	
+	<Colour id="KiracMissionNPCLabelColour"      value="227,215,166"/>
+
+	<Colour id="NPCShopLabelColour"               value="125,117,85"/>
+
+	<Colour id="TagFilterTitleColour"             value="224,219,181"/>
+	<Colour id="TagFilterOptionColour"            value="154,115,81"/>
+  
+	<!-- These are measurements are relative to the flask images and are used to find the front, back, and content images. -->
+	<Number id="FlaskWidth"               value="78"/>
+	<Number id="FlaskBottom"              value="156"/>
+	<Number id="FlaskContentBottomBuffer" value="10"/>   <!-- Distance between the bottom of the content image and FlaskBottom -->
+	<Number id="FlaskContentHeight"       value="100"/>  <!-- Height of the content image from FlaskBottom - FlaskContentBottomBuffer upwards. -->
+
+	<Number id="PSSGraphEdgeBuffer"   value="4600"/>
+	<Number id="PSSCentreInnerRadius" value="130"/>
+
+	<Number id="InventorySquareSize" value="78"/>
+	<Number id="InventorySquareSizeGameCursor" value="78"/>
+	<Number id="InventorySizeInterpolationPeriodMS" value="0"/>
+
+	<Props id="MarkupColours">
+		<Colour id="default"              value="127,127,127"/>
+		<Colour id="valuedefault"         value="255,255,255"/>
+		<Colour id="pink"                 value="255,192,203"/>
+		<Colour id="dodgerblue"           value="30,144,255"/>
+		<Colour id="green"     						value="70,162,57"/>
+		<Colour id="fire"                 value="150,0,0"/>
+		<Colour id="cold"                 value="54,100,146"/>
+		<Colour id="lightning"            value="255,215,0"/>
+		<Colour id="chaos"                value="208,32,144"/>
+		<Colour id="augmented"            value="136,136,255"/>
+		<Colour id="crafted"              value="184,218,242"/>
+		<Colour id="fractured"            value="162,145,98"/>
+		<Colour id="enchanted"            value="184,218,242"/>
+		<Colour id="hellscaped"           value="255,110,37"/>
+		<Colour id="unmet"                value="210,0,0"/>
+		<Colour id="uniqueitem"           value="175,96,37"/>
+		<Colour id="unique"               value="175,96,37"/>
+		<Colour id="rareitem"             value="255,255,119"/>
+		<Colour id="rare"                 value="255,255,119"/>
+		<Colour id="magicitem"            value="136,136,255"/>
+		<Colour id="magic"                value="136,136,255"/>
+		<Colour id="whiteitem"            value="200,200,200"/>
+		<Colour id="normal"               value="200,200,200"/>
+		<Colour id="gemitem"              value="27,162,155"/>
+		<Colour id="gem"                  value="27,162,155"/>
+		<Colour id="currencyitem"         value="170,158,130"/>
+		<Colour id="currency"             value="170,158,130"/>
+		<Colour id="questitem"            value="74,230,58"/>
+		<Colour id="quest"                value="74,230,58"/>
+		<Colour id="nemesismod"           value="255,200,0"/>
+		<Colour id="nemesismodoutline"    value="220,255,40,0"/>
+		<Colour id="talismanmod"          value="141,241,79"/>
+		<Colour id="talismanmodoutline"   value="220,0,0,0"/>
+		<Colour id="title"                value="231,180,120"/>
+		<Colour id="corrupted"            value="210,0,0"/>
+		<Colour id="favour"               value="170,158,130"/>
+		<Colour id="supporterpacknewitem" value="180,96,0"/>
+		<Colour id="supporterpackitem"    value="163,141,109"/>
+		<Colour id="supporterpackincludes" value="242,162,47"/>
+		<Colour id="bloodlinemod"         value="210,0,220"/>
+		<Colour id="bloodlinemodoutline"  value="200,74,0,160"/>
+		<Colour id="tormentmod"           value="50,230,100"/>
+		<Colour id="tormentmodoutline"    value="200,0,100,150"/>
+		<Colour id="canttradeormodify"    value="210,0,0"/>
+		<Colour id="lockedtoaccount"      value="210,0,0"/>
+		<Colour id="divination"           value="14,186,255"/>
+		<Colour id="prophecy"             value="181,75,255"/>
+		<Colour id="essencemod"           value="164,210,255"/>
+		<Colour id="essencemodoutline"    value="210,0,50,100"/>
+		<Colour id="premiumchat"          value="253,242,126"/>
+		<Colour id="premiumchatoutline"   value="209,46,46"/>
+		<Colour id="uniquefoil"           value="130,173,106"/>
+		<Colour id="legacy"               value="212,145,63"/>
+		<Colour id="bestiarymod"          value="255,255,255"/>
+		<Colour id="bestiarymodoutline"   value="220,255,40,0"/>
+		<Colour id="blightmod"            value="255,255,255"/>
+		<Colour id="blightmodoutline"     value="255,215,0,0"/>
+		<Colour id="afflictionmod"        value="22,25,28"/>
+		<Colour id="afflictionmodoutline" value="200,193,210,232"/>
+		<Colour id="stackitemlevel"       value="255,255,255"/>
+		<Colour id="harvestprimary"       value="100,111,73"/>
+		<Colour id="harvestsecondary"     value="83,130,161"/>
+		<Colour id="craftingcaster"       value="179,248,254"/>
+		<Colour id="craftingphysical"     value="199,157,147"/>
+		<Colour id="craftingfire"         value="255,154,119"/>
+		<Colour id="craftingcold"         value="147,216,255"/>
+		<Colour id="craftinglightning"    value="248,203,118"/>
+		<Colour id="craftingchaos"        value="216,167,211"/>
+		<Colour id="craftingspeed"        value="207,238,165"/>
+		<Colour id="craftingcrit"         value="178,167,214"/>
+		<Colour id="craftingred"          value="200,103,110"/>
+		<Colour id="craftingblue"         value="162,207,251"/>
+		<Colour id="craftinggreen"        value="134,189,163"/>
+		<Colour id="craftinglife"         value="201,110,110"/>
+		<Colour id="craftingdefences"     value="168,143,103"/>
+		<Colour id="craftingattack"       value="218,129,77"/>
+		<Colour id="heist"     						value="25,30,25"/>
+		<Colour id="heiststolenitem"      value="210,0,0"/>
+    <Colour id="atlasmaven"           value="182,12,169"/>
+		<Colour id="ultimatumnumber"      value="254,92,81"/>
+		<Colour id="incursionunreachable" value="90,90,90"/>
+		<Colour id="lockedinplaceitem"    value="127,127,127"/>
+		<Colour id="craftaffectremove"    value="254,153,0"/>
+		<Colour id="craftaffectwarning"   value="235,200,80"/>
+		<Colour id="craftaffectreroll"    value="254,153,0"/>
+		<Colour id="skillpopuptitle"      value="249,230,202"/>
+		<Colour id="disabledstats"        value="150,150,167"/>
+ 		<Colour id="skillextrainfo"       value="255,192,119"/>
+		<Colour id="fakeitemcount"        value="200,200,200"/>
+		<Colour id="atlasunlocktext"      value="175,108,25"/>
+		<Colour id="archnemesismodnormal"  value="221,232,174"/>
+		<Colour id="archnemesismodchaosgreen"  value="168,255,176"/>
+		<Colour id="archnemesismodchaospurple"  value="227,158,255"/>
+		<Colour id="archnemesismodcold"  value="207,243,255"/>
+		<Colour id="archnemesismodfire"  value="255,196,158"/>
+		<Colour id="archnemesismodlightning"  value="255,252,171"/>
+		<Colour id="archnemesismodphysicalred"  value="173,104,104"/>
+		<Colour id="archnemesismodphysicalgrey"  value="219,219,219"/>
+		<Colour id="archnemesismodgolden"  value="255,228,150"/>
+		<Colour id="archnemesismodholy"  value="245,227,110"/>
+		<Colour id="archnemesismodgod"  value="255,153,0"/>
+		<Colour id="archnemesismodnormaloutline"  value="200,115,120,96"/>
+		<Colour id="archnemesismodchaosgreenoutline"  value="200,18,184,34"/>
+		<Colour id="archnemesismodchaospurpleoutline"  value="200,137,22,184"/>
+		<Colour id="archnemesismodcoldoutline"  value="200,60,151,181"/>
+		<Colour id="archnemesismodfireoutline"  value="200,207,81,0"/>
+		<Colour id="archnemesismodlightningoutline"  value="200,153,149,49"/>
+		<Colour id="archnemesismodphysicalredoutline"  value="200,99,0,0"/>
+		<Colour id="archnemesismodphysicalgreyoutline"  value="200,130,120,120"/>
+		<Colour id="archnemesismodgoldenoutline"  value="200,148,110,0"/>
+		<Colour id="archnemesismodholyoutline"  value="200,217,188,0"/>
+		<Colour id="archnemesismodgodoutline"  value="200,255,40,0"/>
+		<Colour id="atlasskillstitle"     value="110, 132, 149"/>
+		<Colour id="archnemesisitem"      value="170,158,130"/>
+		<Colour id="mavenfightpopuptitle" value="0,143,206"/>
+		<Colour id="mavenfightpopupglow"  value="30,30,94"/>
+		<Colour id="sentinelsnapshotwarning"  value="200,103,110"/>
+		<Colour id="AT1"                   value="255,231,179,37"/>
+		<Colour id="AT2"                   value="200,231,179,37"/>
+		<Colour id="AT3"                   value="150,231,179,37"/>
+		<Colour id="DF1"                   value="255,0,255,127"/>
+		<Colour id="DF2"                   value="200,0,255,127"/>
+		<Colour id="DF3"                   value="150,0,255,127"/>
+		<Colour id="LUK1"                  value="255,170,158,130"/>
+		<Colour id="LUK2"                  value="200,170,158,130"/>
+		<Colour id="LUK3"                  value="150,170,158,130"/>
+		<Colour id="DA1"                   value="255,227,23,13"/>
+		<Colour id="DA2"                   value="200,227,23,13"/>
+		<Colour id="DA3"                   value="150,227,23,13"/>
+		<Colour id="SP1"                   value="255,160,32,240"/>
+		<Colour id="SP2"                   value="200,160,32,240"/>
+		<Colour id="SP3"                   value="150,160,32,240"/>
+  </Props>
+  
+  <Props id="MarkupImages">
+		<String id="hbgi00"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg00i"/>
+		<String id="hbgi0"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg000i"/>
+		<String id="hbgi1"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg001i"/>
+		<String id="hbgi2"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg002i"/>
+		<String id="hbgi02"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg02i"/>
+		<String id="hbgi03"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg03i"/>
+		<String id="hbgi04"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg04i"/>
+		<String id="hbgi05"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg05i"/>
+		<String id="hbgi06"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg06i"/>
+		<String id="hbgi07"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg07i"/>
+		<String id="hbgm01"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbg001m"/>
+		<String id="HBG00"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBG00"/>
+		<String id="HBG01"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBG01"/>
+		<String id="HBG02"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBG02"/>
+		<String id="HBG03"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBG03"/>
+		<String id="HBG04"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBG04"/>
+		<String id="HBGAa"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAa"/>
+		<String id="HBGAb"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAb"/>
+		<String id="HBGAc"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAc"/>
+		<String id="HBGAd"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HGBAd"/>
+		<String id="HBGAe"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAe"/>
+		<String id="HBGAf"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAf"/>
+		<String id="HBGAg"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAg"/>
+		<String id="HBGAh"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAh"/>
+		<String id="HBGAi"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAi"/>
+		<String id="HBGAj"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAj"/>
+		<String id="HBGAk"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAk"/>
+		<String id="HBGAl"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAl"/>
+		<String id="HBGAm"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAm"/>
+		<String id="HBGAn"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAn"/>
+		<String id="HBGAo"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAo"/>
+		<String id="HBGAp"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAp"/>
+		<String id="HBGAq"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAq"/>
+		<String id="HBGAr"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAr"/>
+		<String id="HBGAs"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAs"/>
+		<String id="HBGAt"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HGBAt"/>
+		<String id="HBGAu"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAu"/>
+		<String id="HBGAv"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAv"/>
+		<String id="HBGAw"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAw"/>
+		<String id="HBGAx"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAx"/>
+		<String id="HBGAy"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAy"/>
+		<String id="HBGAz"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGAz"/>
+		<String id="HBGBa"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGBa"/>
+		<String id="HBGBc"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGBc"/>
+		<String id="HBGBd"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGBd"/>
+		<String id="HBGBe"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HBGBe"/>
+		<String id="HBGC01"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC01"/>
+		<String id="HBGC02"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC02"/>
+		<String id="HBGC03"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC03"/>
+		<String id="HBGC04"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC04"/>
+		<String id="HBGC05"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC05"/>
+		<String id="HBGC06"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC06"/>
+		<String id="HBGC07"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC07"/>
+		<String id="HBGC08"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC08"/>
+		<String id="HBGC09"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC09"/>
+		<String id="HBGC010"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC010"/>
+		<String id="HBGC011"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC011"/>
+		<String id="HBGC012"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC012"/>
+		<String id="HBGC013"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/hbgC013"/>
+		<String id="HRB1"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB1"/>
+		<String id="HRB2"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB2"/>
+		<String id="HRB3"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB3"/>
+		<String id="HRB4"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB4"/>
+		<String id="HRB5"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB5"/>
+		<String id="HRB6"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB6"/>
+		<String id="HRB7"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB7"/>
+		<String id="HRB8"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB8"/>
+		<String id="HRB9"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB9"/>
+		<String id="HRB10"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB10"/>
+		<String id="HRB11"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB11"/>
+		<String id="HRB12"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB12"/>
+		<String id="HRB13"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB13"/>
+		<String id="HRB14"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB14"/>
+		<String id="HRB15"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB15"/>
+		<String id="HRB16"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB16"/>
+		<String id="HRB17"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB17"/>
+		<String id="HRB18"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB18"/>
+		<String id="HRB19"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB19"/>
+		<String id="HRB20"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB20"/>
+		<String id="HRB21"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB21"/>
+		<String id="HRB22"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB22"/>
+		<String id="HRB23"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB23"/>
+		<String id="HRB24"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB24"/>
+		<String id="HRB25"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB25"/>
+		<String id="HRB26"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB26"/>
+		<String id="HRB27"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB27"/>
+		<String id="HRB28"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB28"/>
+		<String id="HRB29"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB29"/>
+		<String id="HRB30"       value="Art/2DArt/UIImages/InGame/HarbingerGlyph/HRB30"/>
+		<String id="ritual_suspended" value="Art/2DArt/UIImages/InGame/Ritual/SavedShopItemIcon"/>
+	</Props>
+
+	<Props id="Button">
+		<Font   id="Normal"         typeface="DFPYuanW7-GB" size="32"/>
+		<Font   id="Small"          typeface="DFPYuanW7-GB" size="26"/>
+		<Colour id="TextColour"     value="255,192,119"/>
+		<Colour id="TextGlowColour" value="118,56,00"/>
+		<Size   id="Size"           width="200" height="59"/>
+	</Props>
+
+	<Props id="TextBox">
+		<Colour id="CaretColour" value="255,255,255"/>
+		<Number id="TextMargin"  value="5"/>
+	</Props>
+
+	<Props id="Panel">
+		<Font   id="Title"              typeface="DFPYuanW7-GB" size="39"/>
+		<Point  id="CloseButtonOffset"  x="34" y="80"/>
+		<Number id="TitleLabelHeight"   value="42"/>
+		<Number id="TitleLabelOffsetY"  value="83"/>
+	</Props>
+
+	<Props id="AchievementCompleteDisplay">
+		<Font id="Normal" typeface="DFPYuanW7-GB" size="45"/>
+	</Props>
+	
+	<Props id="ImportantMessage">
+		<Font id="Normal" typeface="DFPYuanW7-GB" size="45"/>
+		<Colour id="Normal" value="255,199,132"/>
+		
+		<Font id="UltimatumFail" typeface="DFPYuanW7-GB" size="45"/>
+		<Colour id="UltimatumFail" value="255,199,132"/>
+	</Props>
+	
+	<Props id="BattlePassWindow">
+		<Font id="Title" typeface="DFPYuanW7-GB" size="64"/>
+		<Colour id="Title" value="0,0,0"/>
+		<Number id="TitleCentreY" value="92"/>
+		
+		<Font id="ProgressBarTitle" typeface="DFPYuanW7-GB" size="33"/>
+		<Colour id="ProgressBarTitle" value="196,178,108"/>
+		<Colour id="ProgressBarTitleOutline" value="0,0,0"/>
+		
+		<Font id="RewardClaimedLabel" typeface="DFPYuanW7-GB" size="24"/>
+		<Colour id="RewardClaimedLabel" value="255,226,137"/>
+		<Bool id="RewardClaimedLargeBanner" value="false"/>
+		
+		<Font id="Reminder" typeface="DFPYuanW7-GB" size="32"/>
+		<Colour id="Reminder" value="255,178,178,178"/>
+		<Colour id="ReminderOutline" value="0,0,0,0"/>
+		
+		<Font id="WarpToVaultButtonLabel" typeface="DFPYuanW7-GB" size="33"/>
+		<Colour id="WarpToVaultButtonLabel" value="255,213,130"/>
+		<Bool id="WarpToVaultButtonLarge" value="false"/>
+		
+		<Font id="PurchaseButtonLabel" typeface="DFPYuanW7-GB" size="28"/>
+		<Colour id="PurchaseButtonLabel" value="255,213,130"/>
+		
+		<Font id="PriceLabel" typeface="DFPYuanW7-GB" size="28"/>
+		<Colour id="PriceLabel" value="255,213,130"/>
+		
+		<Font id="Marketing" typeface="DFPYuanW7-GB" size="39"/>
+		<Colour id="Marketing" value="0,0,0"/>
+		<Number id="MarketingLineSpacing"  value="0.0"/>
+		<Number id="MarketingMaxWidth"  value="740.0"/>
+	</Props>
+	
+	<Props id="BattlePassRewardReceivedModal">
+		<Font id="Title" typeface="DFPYuanW7-GB" size="60"/>
+		<Colour id="Title" value="0,0,0"/>
+		<Number id="TitleCentreY" value="106"/>
+	</Props>
+	
+	<Props id="WorldQuestObjectiveDescription">
+		<Colour id="DescriptionColour" value="214,186,139"/>
+		<Font id="DescriptionFont" typeface="DFPYuanW7-GB"  size="37"/>
+		<Number id="AssetScaling" value="0.6"/>
+		<Number id="PulseAmplitudeScalar" value="0.5"/>
+		<Number id="PulseTimeScale" value="1.72"/>
+		<Number id="LabelYPosition" value="151"/>
+	</Props>
+	
+	<ImageIdList id="InGamePreloadImages">
+		<ImageId value="Art/2DArt/UIImages/InGame/MainLeft"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/MainRight"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbLifeContent"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbLifeBackground"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbLifeContent"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbLifeForeground"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbLifeTrim"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbReservedLife"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbManaBackground"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbManaContent"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbManaForeground"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbManaTrim"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/OrbReserved"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/ShieldHP0"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/ShieldHP1"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/ShieldHP2"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/ShieldHP3"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/ShieldTrim"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/PassiveAvailableButtonNormal"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/ExperienceBarBackground"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/ExperienceBarFill"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/ExperienceBarMarker"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/MenuNormal"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/HUDMicrotransactionPanelNormal"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/Info"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/HUDInformationNormal"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/QuestUpdateButtonNormal"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/QuestTrackerButtonNormal"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/MapModViewNormal"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/MapModHideNormal"/>
+	</ImageIdList>
+	
+	<ImageIdList id="LoginScreenPreloadImages">
+		<ImageId value="Art/2DArt/UIImages/Login/BannerUltimatum"/>
+		<ImageId value="Art/2DArt/UIImages/Login/LeagueUltimatumSSF"/>
+		<ImageId value="Art/2DArt/UIImages/Login/BannerHardcoreUltimatum"/>
+		<ImageId value="Art/2DArt/UIImages/Login/LeagueUltimatumHCSSF"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueUltimatum"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueUltimatumSSF"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueUltimatumHC"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueUltimatumHCSSF"/>
+		<ImageId value="Art/2DArt/UIImages/Common/Notifications/UltimatumLogo"/>
+		
+		<ImageId value="Art/2DArt/UIImages/Login/BannerBackground"/>
+		<ImageId value="Art/2DArt/UIImages/Login/BannerHighlight"/>
+		<ImageId value="Art/2DArt/UIImages/Login/BannerStandard"/>
+		<ImageId value="Art/2DArt/UIImages/Login/BannerHardcore"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueStandard"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueStandardSSF"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueHardcore"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueHardcoreSSF"/>
+		<ImageId value="Art/2DArt/UIImages/Common/LeagueVoid"/>
+		<ImageId value="Art/2DArt/UIImages/Login/ChallengeLeaguesBackground"/>
+		<ImageId value="Art/2DArt/UIImages/Login/DealOfTheDayBackground"/>
+		<ImageId value="Art/2DArt/UIImages/Login/LeagueBackground"/>
+		<ImageId value="Art/2DArt/UIImages/Login/DailyDealPromoGraphic"/>
+		<ImageId value="Art/2DArt/UIImages/Login/MicrotransactionSymbol"/>
+		<ImageId value="Art/2DArt/UIImages/Login/PanelFillerLeft"/>
+		<ImageId value="Art/2DArt/UIImages/Login/PanelFillerRight"/>
+		<ImageId value="Art/2DArt/UIImages/Login/VerticalSeparator"/>
+		<ImageId value="Art/2DArt/UIImages/Login/LeagueInfo/LeagueInfoButton"/>
+		<ImageId value="Art/2DArt/UIImages/Login/LeagueInfo/Play"/>
+		<ImageId value="Art/2DArt/UIImages/Common/Background1"/>
+		<ImageId value="Art/2DArt/UIImages/Common/ButtonBackgroundThree"/>
+		<ImageId value="Art/2DArt/UIImages/Common/ContactingServerBack"/>
+		<ImageId value="Art/2DArt/UIImages/Common/CharacterBarLeft"/>
+		<ImageId value="Art/2DArt/UIImages/Common/CharacterBarMiddle"/>
+		<ImageId value="Art/2DArt/UIImages/Common/CharacterBarRightBlank"/>
+		<ImageId value="Art/2DArt/UIImages/Common/DefaultIconFrame"/>
+		<ImageId value="Art/2DArt/UIImages/Common/EventBackground"/>
+		<ImageId value="Art/2DArt/UIImages/Common/FadeBottom"/>
+		<ImageId value="Art/2DArt/UIImages/Common/FadeTop"/>
+		<ImageId value="Art/2DArt/UIImages/Common/FloatingTitleBar"/>
+		<ImageId value="Art/2DArt/UIImages/Common/Loading"/>
+		<ImageId value="Art/2DArt/UIImages/Common/PanelBottom"/>
+		<ImageId value="Art/2DArt/UIImages/Common/PanelFiller"/>
+		<ImageId value="Art/2DArt/UIImages/Common/PanelFrameBottom"/>
+		<ImageId value="Art/2DArt/UIImages/Common/PanelFrameTop"/>
+		<ImageId value="Art/2DArt/UIImages/Common/PanelTitleBarOverhang"/>
+		<ImageId value="Art/2DArt/UIImages/Common/TabFadeBottom"/>
+		<ImageId value="Art/2DArt/UIImages/Misc/TooltipPointer"/>
+		<ImageId value="Art/2DArt/UIImages/InGame/Info"/>
+		<ImageId value="Art/2DArt/UIImages/Common/Notifications/BackingGlow"/>
+		<ImageId value="Art/2DArt/UIImages/Common/Notifications/MiddleBG"/>
+		<ImageId value="Art/2DArt/UIImages/Common/Notifications/FrameBotDetail"/>
+	</ImageIdList>
+</Props>
