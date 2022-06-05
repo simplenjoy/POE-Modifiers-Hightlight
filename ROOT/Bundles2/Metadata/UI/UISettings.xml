@@ -250,9 +250,9 @@
 		<Colour id="craftinglife"         value="201,110,110"/>
 		<Colour id="craftingdefences"     value="168,143,103"/>
 		<Colour id="craftingattack"       value="218,129,77"/>
-		<Colour id="heist"     						value="25,30,25"/>
+		<Colour id="heist"     	          value="25,30,25"/>
 		<Colour id="heiststolenitem"      value="210,0,0"/>
-    <Colour id="atlasmaven"           value="182,12,169"/>
+    	<Colour id="atlasmaven"           value="182,12,169"/>
 		<Colour id="ultimatumnumber"      value="254,92,81"/>
 		<Colour id="incursionunreachable" value="90,90,90"/>
 		<Colour id="lockedinplaceitem"    value="127,127,127"/>
@@ -261,7 +261,7 @@
 		<Colour id="craftaffectreroll"    value="254,153,0"/>
 		<Colour id="skillpopuptitle"      value="249,230,202"/>
 		<Colour id="disabledstats"        value="150,150,167"/>
- 		<Colour id="skillextrainfo"       value="255,192,119"/>
+		<Colour id="skillextrainfo"       value="255,192,119"/>
 		<Colour id="fakeitemcount"        value="200,200,200"/>
 		<Colour id="atlasunlocktext"      value="175,108,25"/>
 		<Colour id="archnemesismodnormal"  value="221,232,174"/>
@@ -297,9 +297,9 @@
 		<Colour id="YL1"                   value="253,165,0"/>
 		<Colour id="YL2"                   value="214,169,0"/>
 		<Colour id="YL3"                   value="174,114,0"/>
-		<Colour id="JP1"                   value="253,38,0"/>
-		<Colour id="JP2"                   value="214,32,0"/>
-		<Colour id="TS"                   value="194,29,0"/>
+		<Colour id="TS1"                   value="253,38,0"/>
+		<Colour id="TS2"                   value="214,32,0"/>
+		<Colour id="TS3"                   value="194,29,0"/>
   </Props>
   
   <Props id="MarkupImages">
