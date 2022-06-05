@@ -291,21 +291,15 @@
 		<Colour id="mavenfightpopuptitle" value="0,143,206"/>
 		<Colour id="mavenfightpopupglow"  value="30,30,94"/>
 		<Colour id="sentinelsnapshotwarning"  value="200,103,110"/>
-		<Colour id="AT1"                   value="255,231,179,37"/>
-		<Colour id="AT2"                   value="200,231,179,37"/>
-		<Colour id="AT3"                   value="150,231,179,37"/>
-		<Colour id="DF1"                   value="255,0,255,127"/>
-		<Colour id="DF2"                   value="200,0,255,127"/>
-		<Colour id="DF3"                   value="150,0,255,127"/>
-		<Colour id="LUK1"                  value="255,170,158,130"/>
-		<Colour id="LUK2"                  value="200,170,158,130"/>
-		<Colour id="LUK3"                  value="150,170,158,130"/>
-		<Colour id="DA1"                   value="255,227,23,13"/>
-		<Colour id="DA2"                   value="200,227,23,13"/>
-		<Colour id="DA3"                   value="150,227,23,13"/>
-		<Colour id="SP1"                   value="255,160,32,240"/>
-		<Colour id="SP2"                   value="200,160,32,240"/>
-		<Colour id="SP3"                   value="150,160,32,240"/>
+		<Colour id="YX1"                   value="165,0,253"/>
+		<Colour id="YX2"                   value="139,0,214"/>
+		<Colour id="YX3"                   value="126,0,194"/>
+		<Colour id="YL1"                   value="253,165,0"/>
+		<Colour id="YL2"                   value="214,169,0"/>
+		<Colour id="YL3"                   value="174,114,0"/>
+		<Colour id="JP1"                   value="253,38,0"/>
+		<Colour id="JP2"                   value="214,32,0"/>
+		<Colour id="TS"                   value="194,29,0"/>
   </Props>
   
   <Props id="MarkupImages">
