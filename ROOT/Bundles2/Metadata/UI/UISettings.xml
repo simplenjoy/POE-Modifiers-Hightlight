@@ -291,15 +291,15 @@
 		<Colour id="mavenfightpopuptitle" value="0,143,206"/>
 		<Colour id="mavenfightpopupglow"  value="30,30,94"/>
 		<Colour id="sentinelsnapshotwarning"  value="200,103,110"/>
-		<Colour id="YX1"                   value="160,216,239"/>
-		<Colour id="YX2"                   value="137,195,235"/>
-		<Colour id="YX3"                   value="132,162,212"/>
-		<Colour id="YL1"                   value="224,235,175"/>
-		<Colour id="YL2"                   value="216,230,152"/>
-		<Colour id="YL3"                   value="199,220,104"/>
-		<Colour id="TS1"                   value="242,160,161"/>
-		<Colour id="TS2"                   value="240,144,141"/>
-		<Colour id="TS3"                   value="238,130,124"/>
+		<Colour id="YX1"                   value="181,88,255"/>
+		<Colour id="YX2"                   value="145,70,204"/>
+		<Colour id="YX3"                   value="109,53,153"/>
+		<Colour id="YL1"                   value="255,234,72"/>
+		<Colour id="YL2"                   value="204,188,57"/>
+		<Colour id="YL3"                   value="153,141,43"/>
+		<Colour id="TS1"                   value="255,68,34"/>
+		<Colour id="TS2"                   value="204,54,27"/>
+		<Colour id="TS3"                   value="153,41,20"/>
   </Props>
   
   <Props id="MarkupImages">
