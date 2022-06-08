@@ -291,6 +291,7 @@
 		<Colour id="mavenfightpopuptitle" value="0,143,206"/>
 		<Colour id="mavenfightpopupglow"  value="30,30,94"/>
 		<Colour id="sentinelsnapshotwarning"  value="200,103,110"/>
+        
 		<Colour id="YX1"                   value="181,88,255"/>
 		<Colour id="YX2"                   value="145,70,204"/>
 		<Colour id="YX3"                   value="109,53,153"/>
